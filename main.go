@@ -11,6 +11,7 @@ import (
 
 func main() {
 	e := echo.New() // Echo instance
+	a := 23
 
 	// Middleware
 	e.Use(middleware.Logger())
