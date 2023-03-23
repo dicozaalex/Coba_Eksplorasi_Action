@@ -59,3 +59,6 @@ jobs:
         uses: github/codeql-action/upload-sarif@v2
         with:
           sarif_file: results.sarif
+      # golang-security-action
+      - name: golang-security-action
+        uses: Ynniss/golang-security-action@v0.1.3
