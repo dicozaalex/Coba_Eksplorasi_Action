@@ -1,5 +1,5 @@
 
-name: golangci-lint --version
+name: golangci-lint --1.16.0
 on:
   push:
     tags:
