@@ -1,5 +1,4 @@
-
-name: golangci-lint --1.16.0
+name: golangci-lint
 on:
   push:
     tags:
@@ -15,6 +14,7 @@ permissions:
   contents: read
   # Optional: allow read access to pull request. Use with `only-new-issues` option.
   # pull-requests: read
+  
 jobs:
   golangci:
     name: lint
