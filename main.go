@@ -23,5 +23,5 @@ func main() {
 
 	// Start server
 	log.Println("Connected to port :6061")
-	e.Logger.Fatal(e.Start(":6061"))
+	e.Logger.Fatal(e.Start(":6061"))asd
 }
